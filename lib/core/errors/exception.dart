@@ -15,3 +15,9 @@ class GeneralException implements Exception {
     this.message = "Ocorreu um erro. Por favor, tente novamente",
   });
 }
+
+class AudioPlayerException implements Exception {
+  final String message;
+
+  AudioPlayerException({required this.message});
+}

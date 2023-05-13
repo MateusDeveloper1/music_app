@@ -38,6 +38,8 @@ dependencies:
   get: ^4.6.5
   flutter_dotenv: ^5.0.2
   dio: ^5.0.0
+  dotenv: ^4.1.0
+  audioplayers: ^4.0.1
   
 
 
