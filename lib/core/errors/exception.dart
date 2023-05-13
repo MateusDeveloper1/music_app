@@ -16,8 +16,8 @@ class GeneralException implements Exception {
   });
 }
 
-class AudioPlayerException implements Exception {
+class AudioPlayersException implements Exception {
   final String message;
 
-  AudioPlayerException({required this.message});
+  AudioPlayersException({required this.message});
 }
