@@ -8,11 +8,6 @@ class GenreListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenWidgets(
-      isLoading: false,
-      title: "Lista de Gêneros",
-      error: "Erro ao carregar listas de gêneros",
-      ontryAgain: (){},
-      child: Container(),
-    );
+        isLoading: false, title: "Lista de Gêneros", child: Container());
   }
 }
