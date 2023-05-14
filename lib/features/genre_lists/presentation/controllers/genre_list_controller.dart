@@ -33,5 +33,7 @@ class GenreListController extends GetxController with ScreenLoadingErrorMixin {
     }, (List<GenreModel> genreResponse) {
       genres.value = genreResponse;
     });
+
+    setLoadingToFalse();
   }
 }
